@@ -2,7 +2,7 @@
 
 Custom [Newman](https://github.com/postmanlabs/newman) reporter to send message to [Slack](https://slack.com/)
 
-<img src="https://github.com/noahbabilone/newman-reporters-slack/blob/master/testResults.png?raw=true" width="450"  height="550">
+<img src="https://github.com/noahbabilone/newman-reporters-slack/blob/main/output.png?raw=true" width="450"  height="550">
 
 ## Before you get started
 - Install [Newman](https://github.com/postmanlabs/newman) ``` $ npm run i -g newman ```
@@ -12,10 +12,10 @@ or
 
 ## Installation
  ```CLI
- npm i -g newman-reporter-slackmsg
+ npm i -g newman-reporters-slack
  ```
 
 ## Usage
 ```CLI
- newman run <collectionFile> -e <environmentFile> --suppress-exit-code -r slackmsg --reporter-slackmsg-webhookurl '<webhookurl>'
+ newman run <collectionFile> -e <environmentFile> --suppress-exit-code -r slack --reporter-slack-webhookurl '<webhookurl>'
 ```
